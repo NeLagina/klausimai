@@ -1,0 +1,163 @@
+.main {
+    margin: auto;
+
+}
+
+.switch img {
+    margin: auto;
+    max-width: 40vw;
+    height: auto;
+    max-height: 50vh;
+    display: flex;
+    position: relative;
+    top: 30vh;
+
+}
+
+.switch img:hover {
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-size: 12vh;
+    padding: 0;
+    color: azure;
+    position: relative;
+    top: 20vh;
+    transition: ease-in-out 1s;
+
+}
+
+.title_dovana {
+    text-align: center;
+    font-size: 5vh;
+    padding: 0;
+    color: azure;
+    position: relative;
+    top: 15vh;
+}
+
+.title_tulpe {
+    text-align: center;
+    font-size: 5vh;
+    padding: 0;
+    color: azure;
+    position: relative;
+    top: 25vh;
+}
+
+.dialoge {
+    text-align: center;
+    font-size: 7vh;
+    padding: 0;
+    color: azure;
+    position: relative;
+    top: 20vh;
+    margin: auto;
+
+}
+
+.buttoncontinue {
+    background-color: rgb(40, 168, 98);
+    position: relative;
+    top: 45vh;
+    text-align: center;
+    padding: 3vh;
+    font-size: 3rem;
+    color: black;
+}
+
+.buttoncontinue:hover {
+    cursor: pointer;
+}
+
+.dovana {
+    margin: auto;
+    max-width: 40vw;
+    height: auto;
+    max-height: 50vh;
+    position: absolute;
+    top: 45vh;
+    display: flex;
+    justify-self: center;
+}
+
+.tulpes {
+    margin: auto;
+    max-width: 40vw;
+    height: auto;
+    max-height: 50vh;
+    position: absolute;
+    top: 40vh;
+    display: flex;
+    justify-self: center;
+}
+
+.buttonyes {
+
+    background-color: green;
+
+}
+
+.buttonno {
+    background-color: red;
+}
+
+.Buttonselector div {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    font-size: 3rem;
+}
+
+.Buttonselector {
+    display: flex;
+    position: relative;
+    top: 50vh;
+}
+.no {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .switch img {
+        margin: auto;
+        width: 100vw;
+        height: fit-content;
+        position: absolute;
+        top: 45vh;
+        max-width: 4000vw;
+    }
+
+    .title {
+        font-size: 5em;
+    }
+
+    .dialoge {
+        top: 35vh;
+    }
+
+    .dovana {
+        margin: auto;
+        width: 95vw;
+        max-width: 100vw;
+        height: fit-content;
+        position: absolute;
+        top: 45vh;
+        left: 4vw;
+    }
+
+    .tulpes {
+        margin: auto;
+        width: 100vw;
+        height: fit-content;
+        position: absolute;
+        top: 40vh;
+        max-width: 4000vw;
+    }
+}
